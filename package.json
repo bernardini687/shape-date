@@ -1,0 +1,22 @@
+{
+  "name": "shape-date",
+  "version": "1.0.0",
+  "description": "shape a date from minimal input",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha '*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardini687/shape-date.git"
+  },
+  "keywords": [
+    "date"
+  ],
+  "author": "oscar bernardini <bernardini687@gmail.com> (https://github.com/bernardini687)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernardini687/shape-date/issues"
+  },
+  "homepage": "https://github.com/bernardini687/shape-date#readme"
+}
