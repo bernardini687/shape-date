@@ -1,11 +1,15 @@
 # shape-date
-
 _shape a date from minimal input_
 
 this module is designed to give you back a Date even from a single day value, defaulting the rest to the current date.
 
-# example
+# install
+inside your project, simply run:
+```
+$ npm i shape-date
+```
 
+# example
 ```js
 const shapeDate = require('shape-date')
 

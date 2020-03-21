@@ -1,6 +1,6 @@
 {
   "name": "shape-date",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "shape a date from minimal input",
   "main": "main.js",
   "scripts": {
@@ -15,7 +15,8 @@
     "constructor",
     "date",
     "mini",
-    "parse"
+    "parse",
+    "shapedate"
   ],
   "author": "oscar bernardini <bernardini687@gmail.com> (https://github.com/bernardini687)",
   "license": "ISC",
