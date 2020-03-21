@@ -1,10 +1,10 @@
 {
   "name": "shape-date",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "shape a date from minimal input",
   "main": "main.js",
   "scripts": {
-    "test": "mocha '*.test.js'"
+    "test": "mocha 'test/*.test.js'"
   },
   "repository": {
     "type": "git",

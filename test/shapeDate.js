@@ -1,5 +1,6 @@
 module.exports = (value, separator = '-') => {
-  let now = new Date()
+  // use a fixed Date just for testing.
+  let now = new Date(Date.UTC(2020, 10, 5, 12))
   if (!value) {
     return now
   }
