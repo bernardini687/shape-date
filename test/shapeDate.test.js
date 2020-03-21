@@ -37,6 +37,11 @@ describe('shapeDate on the 5th of November 2020', () => {
       actual = shapeDate(0, '')
       assertEqual(actual.toISOString(), `2020-11-05${TIME}`)
     })
+
+    it('when given a valid separator', async () => {
+      const actual = shapeDate('31.10', '.')
+      assertEqual(actual.toISOString(), `2020-10-31${TIME}`)
+    })
   })
 
   describe.skip('fails', () => {

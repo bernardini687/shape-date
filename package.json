@@ -11,7 +11,11 @@
     "url": "git+https://github.com/bernardini687/shape-date.git"
   },
   "keywords": [
-    "date"
+    "argv",
+    "constructor",
+    "date",
+    "mini",
+    "parse"
   ],
   "author": "oscar bernardini <bernardini687@gmail.com> (https://github.com/bernardini687)",
   "license": "ISC",
