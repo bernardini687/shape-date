@@ -1,4 +1,6 @@
 ![GitHub file size in bytes](https://img.shields.io/github/size/bernardini687/shape-date/main.js)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/bernardini687/shape-date)
+![GitHub repo size](https://img.shields.io/github/repo-size/bernardini687/shape-date)
 ![GitHub](https://img.shields.io/github/license/bernardini687/shape-date)
 ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/shape-date)
 ![npm](https://img.shields.io/npm/dt/shape-date)
