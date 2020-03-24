@@ -1,5 +1,5 @@
 module.exports = (value, separator = '-') => {
-  let now = new Date()
+  let now = new Date(Date.now())
   if (!value) {
     return now
   }

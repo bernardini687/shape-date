@@ -4,7 +4,7 @@
   "description": "shape a date from minimal input",
   "main": "main.js",
   "scripts": {
-    "test": "mocha 'test/*.test.js'"
+    "test": "mocha '*.test.js'"
   },
   "repository": {
     "type": "git",
