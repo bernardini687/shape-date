@@ -52,5 +52,17 @@ describe('shapeDate on the 5th of November 2020', () => {
     it('when given a poorly formatted date', async () => {
       // const actual = shapeDate('2019-')
     })
+
+    it('when given an invalid separator', async () => {
+      // const actual = shapeDate('31+10', '+')
+    })
+
+    it('when given a useless separator', async () => {
+      // const actual = shapeDate('31+10', '.')
+    })
+
+    it('when given an invalid argument', async () => {
+      // const actual = shapeDate('.')
+    })
   })
 })
