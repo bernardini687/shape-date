@@ -1,23 +1,23 @@
 module.exports = (value, separator = '-') => {
-  let now = new Date(Date.now())
+  const now = new Date(Date.now())
   if (!value) {
     return now
   }
 
-  const [d, m, y] = value
+  const [dd, mm, yyyy] = value
     .toString()
     .split(separator)
     .map(x => x.padStart(2, '0'))
 
-  now = now.toISOString()
-  now = now.slice(0, 8) + d + now.slice(10)
+  let nowISO = now.toISOString()
+  nowISO = nowISO.slice(0, 8) + dd + nowISO.slice(10)
 
-  if (m) {
-    now = now.slice(0, 5) + m + now.slice(7)
+  if (mm) {
+    nowISO = nowISO.slice(0, 5) + mm + nowISO.slice(7)
   }
-  if (y) {
-    now = y + now.slice(4)
+  if (yyyy) {
+    nowISO = yyyy + nowISO.slice(4)
   }
 
-  return new Date(now)
+  return new Date(nowISO)
 }
