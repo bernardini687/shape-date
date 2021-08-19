@@ -1,6 +1,6 @@
 {
   "name": "shape-date",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "shape a date from minimal input",
   "main": "main.js",
   "scripts": {
